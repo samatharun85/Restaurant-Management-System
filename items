@@ -1,0 +1,189 @@
+<tbody>
+                            <tr>
+                            <td>
+                            <?php
+                        if($aroti){
+                            echo "Roti: ".$aroti;
+                        }
+                        else{
+                            
+                        }
+                        
+                    ?></td>
+                     <td>
+                        <?php
+                    if($aveg){
+                        echo "Veg Biryani: ".$aveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+
+                        </td>
+                        <td><?php
+                    if($anonveg){
+                        echo "Chicken Biryani ".$anonveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?></td>
+                 <td>
+                        <?php
+                    if($sprite){
+                        echo "Sprite 750ML ".$sprite;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                        </td>
+                    
+                    
+                   
+                           </tr>
+                 <!-- column 2 -->
+                    <tr>
+                       <!-- b roti -->
+                       <td>
+                     <?php
+                        if($broti){
+                            echo "Butter Roti: ".$broti;
+                        }
+                        else{
+                            
+                        }
+                        
+                    ?></td>
+                        <td>
+                        <?php
+                    if($bveg){
+                        echo "Plain Rice: ".$bveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                        </td>
+                        <td><?php
+                    if($cnonveg){
+                        echo "Butter Chicken ".$cnonveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?></td>
+                 <td>
+                        <?php
+                    if($coke){
+                        echo "Coca Cola 750ML: ".$coke;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <!-- c roti -->
+                        <td>
+                    <?php
+                        if($croti){
+                            echo "Butter Naan: ".$croti;
+                        }
+                        else{
+                            
+                        }
+                        
+                    ?>
+
+                    </td>
+                    <td>
+                        <?php
+                    if($cveg){
+                        echo "Tomato Curry: ".$cveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                        </td>
+               
+               
+                <td>
+                <?php
+                    if($dnonveg){
+                        echo "Green Chicken ".$dnonveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                </td>
+                <td><?php
+                    if($thumsup){
+                        echo "Thumsup 750ML: ".$thumsup;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?></td>
+                    </tr>
+                    <tr>
+                       <!-- d roti -->
+                       <td><?php
+                        if($droti){
+                            echo "Tandoori Naan: ".$droti;
+                        }
+                        else{
+                            
+                        }
+                        
+                    ?></td>
+                     <td>
+                        <?php
+                    if($dveg){
+                        echo "Veg Mixed Curry ".$dveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                        </td>
+                       
+                        <td><?php
+                    if($bnonveg){
+                        echo "Mutton Biryani: ".$bnonveg;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?></td>
+                       
+                <td>
+                <?php
+                    if($sting){
+                        echo "Sting 250ML".$sting;
+                    }
+                    else{
+                        
+                    }
+                    
+                ?>
+                </td>
+                    </tr>
+
+                </tbody>

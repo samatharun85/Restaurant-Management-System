@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#btn{
+  display: flex;
+  align-items: flex-start;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="about-section">
+ <form action="home.html"> <button id="btn">Back</button></form>
+  <h1>About Us</h1>
+  <p> Online Restaurent Management System</p>
+  <p>Online restaurant management system is a web application in which the customer can
+    place his/her order based on their interests in advance by giving their details and can be able to
+    book preferred dinning table also. This application helps to reduce the waiting time of customer
+    at restaurant for food. Customer can also cancel their order by giving the details which was given at the
+    booking time.</p>
+</div>
+  <div class="card">
+      <div class="container">
+        <h2>Tharun Sama</h2>
+        <p class="title">Developer</p>
+        <p>R170663</p>
+        <p>samatharun85@gmail.com</p>
+        <p>+918142518103</p>
+      </div>
+</div>
+
+</body>
+</html>

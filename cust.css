@@ -1,0 +1,56 @@
+body{
+    background-image:url("2.jpg");
+    background-size:100% 160% ;
+    height:100%;
+    background-repeat: no-repeat;
+    animation: fadeIn ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards ;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+h4{
+    font-size: x-large;
+    margin-top:8%;
+    margin-left: 40%;
+    font-size: 30px;
+    color:rgb(238, 189, 28);
+    text-decoration: underline;
+}
+form{
+    line-height:1.5;
+    margin-left: 40%;
+    font-size: x-large;
+    color: rgb(248, 239, 239);
+    font-family: sans-serif;
+    
+}
+input,select{
+    background-color: rgba(208, 240, 240, 0.712);
+    color: rgb(0, 0, 0);
+    padding: 7px 16px;
+    border-radius: 5px;
+}
+select ~ input{
+    margin-left: 80px;;
+}
+button{
+    margin-left: 16%;
+    padding: 10px;
+    background-color:rgb(228, 150, 34);
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+}
+button:hover{
+    background-color: aqua;
+}

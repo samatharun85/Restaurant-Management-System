@@ -1,0 +1,122 @@
+body{
+    background-image: url("1.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background-size:cover; */
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 100%;
+   color:white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+
+}
+.container{
+    /* padding-top: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.greetings{
+    font-family: 'Open Sans', sans-serif;
+}
+.contact{
+    margin-top: 45%;
+    border:2px solid white;
+    border-radius: 10px;
+}
+
+h1{
+   
+    font-size: 80px;
+    color: rgb(255, 136, 0);
+}
+ h2{
+
+    font-size: 30px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+}
+.order{
+   
+    padding: 10px;
+    margin: 2%;
+    background-color:rgb(230, 63, 13);
+    border-radius: 10px;
+    font-weight: bolder;
+    border-style: none;
+    color: blanchedalmond;
+    /* width: max-content; */
+    width: 200px;
+}
+.cancel{
+    padding: 10px;
+    margin: 2%;
+    background-color:transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 63, 13);
+    font-weight: bolder;
+    background-color: blanchedalmond;
+    color: rgb(230, 63, 13);
+    width: 200px;
+}
+.order:hover{
+    border: 2px solid rgb(172, 228, 82);
+    font-weight: bolder;
+    background-color:transparent;
+    color:rgb(172, 228, 82);
+}
+.cancel:hover{
+    border: 2px solid rgb(230, 63, 13);
+    font-weight: bolder;
+    background-color:transparent;
+    color:rgb(230, 63, 13);
+}
+
+.blockquote-footer{
+    color: rgb(248, 230, 230);
+    position: absolute;
+    bottom: 3%;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ff2600 0%,
+    #fff9f8 29%,
+    #ff1361 67%,
+    #ff5100 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  font-family: 'Poppins', sans-serif;
+  padding: 5%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite ;
+  width: max-content;
+      font-size: 400%;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
